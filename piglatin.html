@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="piglatin.css">
+    <title>Pig Latin Translator</title>
+    <link rel="icon" type="image/png" href="https://www.stickpng.com/assets/images/580b57fbd9996e24bc43bc9c.png" >
+  </head>
+  <body>
+
+  <div class="text animated shake"><h1>Pig Latin Translator</h1></div>
+
+
+    <input class="box" type="text" id="user-input" placeholder="Please enter a sentence">
+    <h1></h1>
+
+    <br>
+
+    <button class="button" name="button" onclick="plMain()">Translate!</button>
+
+    <br>
+    <br>
+    <br>
+
+    <h1></h1>
+    <div class="box">
+        <h4 id="output">Translated to Pig Latin</h4></div>
+    <script type="text/javascript" src="piglatin.js"></script>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+<div class="instructions">
+    <h3>Hi there!  To play, here are the instructions:</h3>
+<div class="instructions-list">
+    <ol>
+    <li>For words beginning with a vowel, we add "way" to the end.</li>
+    <li>For words beginning with one or more consonants, move all of the first consecutive consonants to the end, and add "ay".</li>
+    <li>If the first consonants include "qu", move the "u" along with the "q". <br> Don't forget about words like "squeal" where "qu" doesn't come first!</li>
+    <li>For words beginning with "y", treat "y" as a consonant.</li>
+    </ol>
+</div>
+</div>
+
+  </body>
+</html>

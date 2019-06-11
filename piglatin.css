@@ -1,0 +1,92 @@
+body{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:  #33cccc;
+    background-image: url(http://4.bp.blogspot.com/-0loVrqHnv1o/VTHV5EmTWeI/AAAAAAAAUhA/3cmLrnsgEes/s1600/Product_McRib.png)
+}
+div{
+}
+.button {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: pink;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {background-color: #ffb219}
+
+.button:active {
+  background-color: #ffb219;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.wrap {
+  margin: 0px auto;
+  width: 486px;
+}
+
+.box {
+    text-align: center;
+    margin: auto;
+  width: 50%;
+  height: 25%;
+  padding: 5px;
+  float: center;
+  background: #eaeaea;
+  border: 1px solid #eaeaea;
+  border-radius: 25px;
+  overflow: hidden;
+}
+
+.text {
+  text-align: center;
+  margin-top: 56px;
+  color: #fff;
+  font-size: 1.0em;
+  font-family: sans-serif;
+  text-transform: uppercase;
+}
+
+
+.animated {
+
+}
+.animated-active {
+  animation-duration: 2.5s;
+  animation-fill-mode: both;
+  animation-iteration-count: 1;
+}
+@keyframes shake {
+  0%, 100% {transform: translateX(0);}
+  10%, 30%, 50%, 70%, 90% {transform: translateX(-10px);}
+  20%, 40%, 60%, 80% {transform: translateX(10px);}
+}
+.shake {
+  animation-name: shake;
+}
+.instructions-list {
+  text-align: left;
+  list-style-position: inside;
+}
+.instructions-list li {
+    padding: 5px
+}
+.instructions {
+    text-align: center;
+    margin: auto;
+  width: 50%;
+  height: 25%;
+  padding: 5px;
+  float: center;
+  background: #eaeaea;
+  border: 1px solid #eaeaea;
+  border-radius: 25px;
+  overflow: hidden;
+  list-style-position: inside;
+}
